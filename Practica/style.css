@@ -24,7 +24,7 @@ label.inline{
     display: inline-block;
 }
 
-input, select{
+input,select{
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -45,6 +45,7 @@ select{
 input[type="submit"]{
     background-color: rgb(125, 151, 125);
     color: white;
+    font-weight: bold;
     padding: 15px;
     border: none;
     border-radius: 7px;
@@ -54,7 +55,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color: rgb(105, 126, 105);
+    background-color: rgb(105, 126, 105)
 }
 
 .error{
